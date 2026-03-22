@@ -1,3 +1,3 @@
 # highlighting
 
-Syntax highlighting for the cinnabar programming language.
+Syntax highlighting for the Neo programming language.
