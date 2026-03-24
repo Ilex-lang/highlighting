@@ -1,5 +1,11 @@
-; Indent after opening brace
-(_ "{" @indent "}" @end)
+(_
+  "{"
+  "}" @end) @indent
 
-; Dedent on closing brace
-"}" @outdent
+(_
+  "("
+  ")" @end) @indent
+
+(_
+  "["
+  "]" @end) @indent
